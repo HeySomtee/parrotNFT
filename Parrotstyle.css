@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(48, 180, 241);
+    font-family: 'Rubik Moonrocks', cursive;
+    
+
+}
+
+.header{
+    text-align: center;
+
+}
+.right{
+    float: right;
+    margin-right: 40px;
+    margin-top: -20px;
+}
+div .image img{
+    position: relative;
+    margin-top: 00px;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 50%;
+    /* transition:  width 2s, height 4s; */
+    opacity: 1;
+    
+    animation-name: imager;
+    animation-duration: 5s;
+}
+
+@keyframes imager{
+    0%   {background-color:red; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:200px; top:0px;} */
+    50%  {background-color:blue; left:100vw; top:0px;}
+    100%  {background-color:green; left:0px; top:00px;}
+    /* 100% {background-color:red; left:0px; top:0px;} */ 
+    
+}
+/* .image:hover{
+    margin-top: 100px;
+    margin-left: 50px;
+    transform: rotate(10deg);
+    animation-name: imager;
+    animation-duration: 4s;
+} */
+.para{
+    margin-left: 00px;
+    
+}
+.text{
+    margin-top: 70px;
+    margin-left: 500px;
+}
+
+.rotate{
+
+    position: relative;
+    margin-top: 80px;
+    margin-left: -160px;
+    animation-name: rotate; 
+    animation-duration: 4s;
+    animation-delay: 2s;
+    /* animation-delay: 4s;  */
+    z-index: -1;
+
+}
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    
+} */
+  
+@keyframes rotate{
+    0%   {background-color:rgb(48, 180, 241); left:100vw; top:0px;}
+    100% {background-color:rgb(48, 180, 241); left:0px; top:0px;}
+    
+    
+}
+span{
+    font-size: 40px;
+}
+.fa-bars-sort{
+    background-color: red;
+}
+#p{
+    color: greenyellow;
+
+}
+#a{
+
+    color: violet;    
+
+}
+#r1{
+
+    color: red;
+}
+#r2{
+    color: purple;
+
+}
+#o{
+    color: blue;
+
+}
+#t{
+    color: yellow;
+}
+#big{
+    font-size: 60px;
+}
